@@ -11,6 +11,7 @@ public class gmailLogin {
 	@Test
 	public static void test () throws Exception
 	{
+		//Gmail login test cases
 		System.setProperty("webdriver.chrome.driver","C:\\selenium\\eclipse workspace\\jars and downloads\\drivers\\google chrome\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://accounts.google.com/ServiceLogin/identifier?service=mail&flowName=GlifWebSignIn&flowEntry=AddSession");
